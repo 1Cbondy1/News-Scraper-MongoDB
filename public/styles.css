@@ -1,9 +1,11 @@
-body { background-color: #F2F6D0 }
+body { 
+
+}
 #wrapper {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 #articles {
   display: inline-block;
@@ -12,13 +14,14 @@ body { background-color: #F2F6D0 }
   height: 700px;
 }
 #notes {
+  padding-top:0px;
   float: right;
   width: 30%;
 }
 textarea, input {
   display: block;
   width: 100%;
-  background-color: #FCF5C7;
+  background-color: rgb(247, 247, 247);
 }
 input {
   height: 36px;
@@ -27,4 +30,11 @@ input {
 textarea {
   height: 200px;
   font-size: 18px;
+}
+#news-text {
+  display:inline-block;
+  margin: auto 0px auto 0px;
+  vertical-align:top;
+  padding-top:8px;
+  padding-left:20px;
 }
